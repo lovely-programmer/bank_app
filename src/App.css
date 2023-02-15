@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap");
+
+:root {
+  --orange-color: rgb(215, 30, 40);
+  --white-color: #fff;
+  --yellow-color: rgb(255, 205, 65);
+  --black-color: #000;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ul {
+  list-style: none;
+}
